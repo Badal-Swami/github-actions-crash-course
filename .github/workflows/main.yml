@@ -20,10 +20,7 @@ jobs:
         env:
           REACT_APP_WELCOME_TEXT: ${{ vars.REACT_APP_WELCOME_TEXT }}
       - name: Deploy to Github Page
-        uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-         branch: gh-pages
-         folder: build
+        uses: alainQtec/deploy-react-to-ghpages@1.0.0-beta.2
         
          
     
