@@ -24,8 +24,7 @@ jobs:
       - name: Deploy to Github Page
         uses: bitovi/github-actions-react-to-github-pages@v1.2.4
         with:
-          branch: gh-pages
-          folder: build
+          path: build
         
          
     
